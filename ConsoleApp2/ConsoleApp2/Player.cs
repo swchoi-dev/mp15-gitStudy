@@ -14,4 +14,10 @@ public class Player
         _name = name;
         _level = level;
     }
+
+    public void PrintInfo()
+    {
+        Console.WriteLine($"Name: {_name}");
+        Console.WriteLine($"Level: {_level}");
+    }
 }

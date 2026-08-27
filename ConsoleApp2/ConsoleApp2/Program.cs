@@ -1,7 +1,9 @@
-﻿class Program
+﻿using ConsoleApp2;
+class Program
 {
     static void Main(string[] args)
-    {  
-       Console.WriteLine("Hello Github"); 
+    {
+        Player player = new Player("Dile", 37);
+        player.PrintInfo();
     }
 }
